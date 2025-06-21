@@ -1,0 +1,75 @@
+    body {
+      background: black;
+      color: white;
+      font-family: sans-serif;
+      text-align: center;
+    }
+    .section {
+      margin: 50px 0;
+    }
+    .box {
+      width: 100px;
+      height: 100px;
+      display: inline-block;
+      margin: 10px;
+      color: white;
+      line-height: 100px;
+      font-weight: bold;
+    }
+    .static {
+      position: static;
+      background: brown;
+    }
+    .relative {
+      position: relative;
+      background: lime;
+      z-index: 1;
+    }
+    .absolute {
+      position: absolute;
+      background: red;
+      width: 150px;
+      height: 100px;
+      line-height: 100px;
+      top: 0;
+      left: 0;
+    }
+    .fixed {
+      position: fixed;
+      background: orange;
+      top: 0;
+      right: 0;
+      z-index: 999;
+    }
+    .sticky {
+      position: sticky;
+      top: 0;
+      background: purple;
+    }
+    .zindex {
+      position: relative;
+      background: blue;
+      z-index: 2;
+    }
+    .container {
+      position: relative;
+      background: rgba(255,255,255,0.1);
+      height: 150px;
+      margin: 30px auto;
+      width: 90%;
+    }
+
+    .info-box {
+      background: #a33;
+      padding: 20px;
+      display: inline-block;
+      width: 200px;
+      vertical-align: top;
+      margin: 10px;
+    }
+
+    .info-title {
+      font-weight: bold;
+      font-size: 1.2em;
+      margin-bottom: 10px;
+    }
